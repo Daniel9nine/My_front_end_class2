@@ -1,0 +1,152 @@
+/*movieweb.css*/
+
+/*declaring variables*/
+
+:root {
+    --primary: #ddd;
+    --dark: #333;
+    --light:#fff;
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    --bg: #ccc
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing:border-box;
+    color: var(--dark);
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: var(--bg);
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+header{
+    background-color: var(--dark);
+    text-transform: uppercase;
+    color: var(--light);
+    text-align: center;
+    padding: 0.5rem 0;
+}
+.top5 {
+    text-align: center;
+    margin: 1em;
+    padding: 1em;
+}
+.top5 h2 {
+    box-shadow: var(--shadow);
+    display: inline;
+    padding: 0.3em; 
+}
+
+img{
+    width: 170px;
+    height: 250px;
+    border-radius: 8px;
+}
+
+.picture {
+    margin: 1em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    grid-gap: 20px;
+    text-align: center;
+    
+}
+
+.avatar {
+    box-shadow: var(--shadow);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.avatar h2 {
+    font-size: 1rem;
+}
+
+.avatar h3 {
+    background-color: var(--dark);
+    color: var(--light);
+    display: inline;
+    padding: 0.3em;
+    border-radius: 8px;
+}
+
+.bee {
+    box-shadow: var(--shadow);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.bee h2 {
+    font-size: 1rem;
+    text-decoration: solid;
+}
+
+.bee h3 {
+    background-color: var(--dark);
+    color: var(--light);
+    display: inline;
+    padding: 0.3em;
+    border-radius: 8px;
+}
+
+.die {
+    box-shadow: var(--shadow);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.die h2 {
+    font-size: 1rem;
+}
+
+.die h3 {
+    background-color: var(--dark);
+    color: var(--light);
+    display: inline;
+    padding: 0.3em;
+    border-radius: 8px;
+}
+
+.fast {
+    box-shadow: var(--shadow);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.fast h2 {
+    font-size: 1rem;
+}
+    
+.fast h3 {
+    background-color: var(--dark);
+    color: var(--light);
+    display: inline;
+    padding: 0.3em;
+    border-radius: 8px;
+
+}
+
+.italian {
+    box-shadow: var(--shadow);
+    padding: 1rem;
+    border-radius: 10px;
+    
+}
+.italian h2 {
+    font-size: 1rem;
+}
+
+.italian h3 {
+    background-color: var(--dark);
+    color: var(--light);
+    display: inline;
+    padding: 0.3em;
+    border-radius: 8px;
+}
+

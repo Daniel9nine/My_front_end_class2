@@ -1,0 +1,99 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    color: #333;
+    background-color: #fafafa;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* css grid container*/
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 10px;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-wrap:initial;
+}
+
+/* SIDEBAR STYLING*/
+
+.sidebar{
+    grid-column: 1/2;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    
+}
+
+
+
+.sidebar ul {
+    list-style: none;
+    padding-left: 0;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 0.5rem;
+    text-align: center;
+    
+}
+
+.sidebar li {
+    padding: 1rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    
+}
+
+.sidebar a {
+    color: #333;
+    text-decoration: none;
+    padding: 1rem;
+    
+}
+
+.sidebar a:hover {
+    text-decoration: none;
+    background-color: #333;
+    color: #f0f0f0;
+    padding: 1rem;
+}
+
+/*content styling*/
+
+.content {
+    grid-column: 2/3;
+    padding: 20px;
+    padding: 2rem;
+    text-align: center;
+}
+
+/*Advertisment STYLING*/
+
+.advertisement {
+    grid-column: 3/4;
+    background-color: #f0f0f0;
+    padding: 20px;
+    
+}

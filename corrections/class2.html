@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handling</title>
+</head>
+<body>
+    <botton id = "myBotton">Click Me </botton>
+    <div id="hoverDiv" style="width: 100px; height: 100px; background-color: lightblue;"> Hover over me
+    </div>
+    <script>
+        //Click Event
+        const button = document.getElementById
+        ('myBotton');
+        botton.addEventListener('click', () => {
+            alert('botton clicked');
+        });
+        // Mouseover and mouseout events
+        const hoverDiv = document.getElementById('hoverDiv');
+        hoverDiv.addEventListener('mouseover', () => {
+            hoverDiv.style.backgroundColor = 'yellow';
+        });
+        hoverDiv.addEventListener('mouseout', () => {
+            hoverDiv.style.backgroundColor = 'lightblue';
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(246, 246, 208);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px 15px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+header{
+    font-size: 16px;
+    background-color: rgb(250, 243, 182);
+    text-align: center;
+    color: rgb(17, 1, 62);
+    border-radius: 10px;
+    height: 50px;
+    width: 450px;
+    margin: 20px;
+    margin-left: 500px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 2.5);
+}
+
+section{
+    margin: 15px;
+}
+
+.section h2 {
+    text-align: center;
+    color: rgb(17, 1, 62);
+    border-radius: 10px;
+    height: 42px;
+    width: 250px;
+    background-color: rgb(250, 243, 182);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 2.5);
+}
+.section img{
+    width: 2%;
+    height: 2% ;
+}
